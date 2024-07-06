@@ -1,0 +1,258 @@
+/* Common CSSs */
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Start Coding */
+
+.hero-area{
+    height: 735px;
+    width: 100%;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.hero-area > div{
+    width: 810px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-area div .hero-first-paragraph{
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 16px 0;
+}
+
+.hero-area div .hero-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-area div .hero-second-paragraph{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hero-area div .hero-button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+}
+
+.hero-area div .hero-button>a{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/* about us */
+
+.about{
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    border-top: 1px solid rgba(53, 53, 53, 0.193);
+    border-bottom: 1px solid rgba(53, 53, 53, 0.193);
+}
+
+.about .about-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.about .about-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.about-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.about-content .content-1{
+    padding: 0 2rem;
+}
+
+.about-content .content-1 h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-content .content-1 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-content .content-2{
+    width: 100%;
+    border-top: 1px solid rgba(53, 53, 53, 0.193);
+    border-bottom: 1px solid rgba(53, 53, 53, 0.193);
+}
+
+.about-content .content-2 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.about-content .content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* card box */
+
+.card-box .container-card{
+    height: 680px;
+    border: 2px dashed rgba(83, 83, 83, 0.297);
+    border-radius: 5px;
+    margin: 8rem 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-box .container-card .card-box-content p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.6;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-box .container-card .card-box-content h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-box .container-card .card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.card-image img{
+    width: 100%;
+}
+
+.card-image .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-image .card-content button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 0.5rem 1rem;
+}
+
+.card-image .card-content h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.card-image .card-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.7;
+    padding: 0 2px;
+    text-align: center;
+}
+
+
+
+.hero-button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+}
+
+.hero-button>a{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.card-box .container-card .card-button{
+    text-align: center;    
+}
+
+
+/* single card */
+
+.section-single-card{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.single-card{
+    border: 2px dashed rgba(83, 83, 83, 0.297);
+    border-radius: 16px;
+    gap: 3rem;
+}
+
+
+/* Footer */
+
+.footer{
+    height: 500px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.762),rgba(255, 255, 255, 0.762)) ,url("../assets/social-bg.png");
+    background-size: cover;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
